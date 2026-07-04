@@ -97,7 +97,7 @@ function MagneticButton({
   href?: string;
   onClick?: () => void;
 }) {
-  const ref = useRef<HTMLAnchorElement | HTMLButtonElement>(null);
+  const ref = useRef<HTMLElement | null>(null);
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
@@ -122,13 +122,13 @@ function MagneticButton({
   }`;
   if (href) {
     return (
-      <a ref={ref as never} href={href} className={cls}>
+      <a ref={(el) => { ref.current = el; }} href={href} className={cls}>
         {children}
       </a>
     );
   }
   return (
-    <button ref={ref as never} onClick={onClick} className={cls}>
+    <button ref={(el) => { ref.current = el; }} onClick={onClick} className={cls}>
       {children}
     </button>
   );
