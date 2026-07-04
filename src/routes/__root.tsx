@@ -82,6 +82,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Deeps — Software Developer & Cloud Enthusiast" },
+      { name: "description", content: "Portfolio of Deeps — Java & Full Stack Developer building scalable applications, cloud-powered solutions, and interactive user experiences." },
+      { property: "og:description", content: "Portfolio of Deeps — Java & Full Stack Developer building scalable applications, cloud-powered solutions, and interactive user experiences." },
+      { name: "twitter:description", content: "Portfolio of Deeps — Java & Full Stack Developer building scalable applications, cloud-powered solutions, and interactive user experiences." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ec4bd823-59ff-4e84-bb3b-6cf71f8ac1ae/id-preview-dffd31fe--14eeb5dc-e00e-4bb0-addb-b6d1907b2585.lovable.app-1783133442124.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ec4bd823-59ff-4e84-bb3b-6cf71f8ac1ae/id-preview-dffd31fe--14eeb5dc-e00e-4bb0-addb-b6d1907b2585.lovable.app-1783133442124.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
