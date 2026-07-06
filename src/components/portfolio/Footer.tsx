@@ -28,7 +28,7 @@ export function Footer() {
                 <span className="grid h-8 w-8 place-items-center rounded-full bg-gradient-to-br from-[#0A84FF] via-[#7C3AED] to-[#22D3EE] text-sm font-black text-white">
                   D
                 </span>
-                Deeps
+                Deepak
               </div>
               <p className="mt-3 max-w-sm text-sm text-muted-foreground">
                 Software developer crafting scalable applications and cloud-powered products.
@@ -61,7 +61,7 @@ export function Footer() {
             </div>
           </div>
           <div className="mt-10 flex flex-col items-center justify-between gap-3 border-t border-white/5 pt-6 text-xs text-muted-foreground md:flex-row">
-            <p>© {new Date().getFullYear()} Deeps. Crafted with care.</p>
+            <p>© {new Date().getFullYear()} Deepak. Crafted with care.</p>
             <p>Built with React · TanStack · Framer Motion</p>
           </div>
         </div>
