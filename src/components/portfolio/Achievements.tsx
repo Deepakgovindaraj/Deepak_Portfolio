@@ -44,25 +44,25 @@ const profiles = [
   {
     name: "LeetCode",
     desc: "300+ problems · Consistent daily practice",
-    href: "https://leetcode.com",
+    href: "https://leetcode.com/u/Deepak_RG/",
     color: "from-[#FFA116] to-[#FF6B00]",
   },
   {
     name: "GitHub",
     desc: "Open-source projects & experiments",
-    href: "https://github.com",
+    href: "https://github.com/Deepakgovindaraj",
     color: "from-[#6e5494] to-[#4078c0]",
   },
   {
     name: "LinkedIn",
     desc: "Professional network & updates",
-    href: "https://linkedin.com",
+    href: "https://www.linkedin.com/in/deepak-rg/",
     color: "from-[#0A66C2] to-[#22D3EE]",
   },
   {
     name: "HackerRank",
     desc: "Certifications & problem solving",
-    href: "https://hackerrank.com",
+    href: "https://www.hackerrank.com/profile/rgdeepak91",
     color: "from-[#2EC866] to-[#22D3EE]",
   },
 ];
