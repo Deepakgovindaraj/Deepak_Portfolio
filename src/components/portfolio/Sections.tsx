@@ -155,12 +155,12 @@ export function Contact() {
   };
 
   const info = [
-    { icon: Mail, label: "Email", value: "hello@deeps.dev", href: "mailto:hello@deeps.dev" },
-    { icon: Phone, label: "Phone", value: "+91 · Available on request", href: "#" },
+    { icon: Mail, label: "Email", value: "rgdeepak91@gmail.com", href: "mailto:rgdeepak91@gmail.com" },
     { icon: MapPin, label: "Location", value: "Coimbatore, India", href: "#" },
-    { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/deeps", href: "https://linkedin.com" },
-    { icon: Github, label: "GitHub", value: "github.com/deeps", href: "https://github.com" },
-    { icon: Code2, label: "LeetCode", value: "leetcode.com/deeps", href: "https://leetcode.com" },
+    { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/deepak-rg", href: "https://www.linkedin.com/in/deepak-rg/" },
+    { icon: Github, label: "GitHub", value: "github.com/Deepakgovindaraj", href: "https://github.com/Deepakgovindaraj" },
+    { icon: Code2, label: "LeetCode", value: "leetcode.com/u/Deepak_RG", href: "https://leetcode.com/u/Deepak_RG/" },
+    { icon: Code2, label: "HackerRank", value: "hackerrank.com/rgdeepak91", href: "https://www.hackerrank.com/profile/rgdeepak91" },
   ];
 
   return (
