@@ -199,7 +199,7 @@ export function Hero() {
             <MagneticButton primary href="#projects">
               View Projects
             </MagneticButton>
-            <MagneticButton href="#resume">
+            <MagneticButton href="https://drive.google.com/file/d/1kEMJTbWo1C3AjpfbrWVgIivUTKvrnZNp/view?usp=sharing">
               <Download className="h-4 w-4" />
               Download Resume
             </MagneticButton>
@@ -212,9 +212,9 @@ export function Hero() {
             className="mt-8 flex items-center gap-4 text-muted-foreground"
           >
             {[
-              { icon: Github, href: "https://github.com" },
-              { icon: Linkedin, href: "https://linkedin.com" },
-              { icon: Mail, href: "#contact" },
+              { icon: Github, href: "https://github.com/Deepakgovindaraj" },
+              { icon: Linkedin, href: "https://www.linkedin.com/in/deepak-rg/" },
+              { icon: Mail, href: "mailto:rgdeepak91@gmail.com" },
             ].map(({ icon: Icon, href }, i) => (
               <a
                 key={i}

@@ -43,10 +43,10 @@ export function Footer() {
             </nav>
             <div className="flex items-center gap-3">
               {[
-                { icon: Github, href: "https://github.com" },
-                { icon: Linkedin, href: "https://linkedin.com" },
-                { icon: Code2, href: "https://leetcode.com" },
-                { icon: Mail, href: "#contact" },
+                { icon: Github, href: "https://github.com/Deepakgovindaraj" },
+                { icon: Linkedin, href: "https://www.linkedin.com/in/deepak-rg/" },
+                { icon: Code2, href: "https://leetcode.com/u/Deepak_RG/" },
+                { icon: Mail, href: "mailto:rgdeepak91@gmail.com" },
               ].map(({ icon: Icon, href }, i) => (
                 <a
                   key={i}

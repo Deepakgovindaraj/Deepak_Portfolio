@@ -7,7 +7,6 @@ import {
   FileText,
   Mail,
   MapPin,
-  Phone,
   Send,
   Github,
   Linkedin,
@@ -48,14 +47,18 @@ export function Resume() {
             </div>
             <div className="flex flex-wrap gap-3">
               <a
-                href="#"
+                href="https://drive.google.com/uc?export=download&id=1kEMJTbWo1C3AjpfbrWVgIivUTKvrnZNp"
+                target="_blank"
+                rel="noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-white px-5 py-2.5 text-sm font-medium text-black transition hover:opacity-90"
               >
                 <Download className="h-4 w-4" />
                 Download
               </a>
               <a
-                href="#"
+                href="https://drive.google.com/file/d/1kEMJTbWo1C3AjpfbrWVgIivUTKvrnZNp/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
                 className="inline-flex items-center gap-2 rounded-full glass px-5 py-2.5 text-sm font-medium transition hover:bg-white/10"
               >
                 <Eye className="h-4 w-4" />
@@ -151,12 +154,12 @@ export function Contact() {
   };
 
   const info = [
-    { icon: Mail, label: "Email", value: "hello@deeps.dev", href: "mailto:hello@deeps.dev" },
-    { icon: Phone, label: "Phone", value: "+91 · Available on request", href: "#" },
+    { icon: Mail, label: "Email", value: "rgdeepak91@gmail.com", href: "mailto:rgdeepak91@gmail.com" },
     { icon: MapPin, label: "Location", value: "Coimbatore, India", href: "#" },
-    { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/deeps", href: "https://linkedin.com" },
-    { icon: Github, label: "GitHub", value: "github.com/deeps", href: "https://github.com" },
-    { icon: Code2, label: "LeetCode", value: "leetcode.com/deeps", href: "https://leetcode.com" },
+    { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/deepak-rg", href: "https://www.linkedin.com/in/deepak-rg/" },
+    { icon: Github, label: "GitHub", value: "github.com/Deepakgovindaraj", href: "https://github.com/Deepakgovindaraj" },
+    { icon: Code2, label: "LeetCode", value: "leetcode.com/u/Deepak_RG", href: "https://leetcode.com/u/Deepak_RG/" },
+    { icon: Code2, label: "HackerRank", value: "hackerrank.com/rgdeepak91", href: "https://www.hackerrank.com/profile/rgdeepak91" },
   ];
 
   return (

@@ -28,6 +28,7 @@ const projects = [
     future: ["WhatsApp integration", "Push notifications", "SMS", "Mobile app", "AI reminder suggestions"],
     accent: "from-[#0A84FF] to-[#22D3EE]",
     number: "01",
+    github: "https://github.com/Deepakgovindaraj/CloudNotify",
   },
   {
     name: "Eco Learn",
@@ -44,6 +45,7 @@ const projects = [
     future: ["Multi-language support", "Teacher dashboard", "Offline mode"],
     accent: "from-[#7C3AED] to-[#22D3EE]",
     number: "02",
+    github: "https://github.com/Deepakgovindaraj/ECO---LEARN",
   },
   {
     name: "JDBC Employee Management",
@@ -60,6 +62,7 @@ const projects = [
     future: ["REST API layer", "Web UI with React"],
     accent: "from-[#0A84FF] to-[#7C3AED]",
     number: "03",
+    github: "https://github.com/Deepakgovindaraj/JAVA-console---EmployeeManagement",
   },
 ];
 
@@ -102,20 +105,14 @@ export function Projects() {
                   </div>
                   <div className="mt-6 flex flex-wrap gap-3">
                     <a
-                      href="https://github.com"
+                      href={p.github}
                       target="_blank"
                       rel="noreferrer"
-                      className="inline-flex items-center gap-2 rounded-full glass px-4 py-2 text-sm transition hover:bg-white/10"
-                    >
-                      <Github className="h-4 w-4" />
-                      GitHub
-                    </a>
-                    <a
-                      href="#"
                       className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-medium text-black transition hover:opacity-90"
                     >
-                      <ExternalLink className="h-4 w-4" />
-                      Live Demo
+                      <Github className="h-4 w-4" />
+                      View on GitHub
+                      <ExternalLink className="h-3.5 w-3.5" />
                     </a>
                   </div>
                 </div>
