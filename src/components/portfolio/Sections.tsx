@@ -40,7 +40,7 @@ export function Resume() {
               <FileText className="h-7 w-7" />
             </div>
             <div>
-              <h3 className="text-2xl font-semibold">Deeps — Resume 2025</h3>
+              <h3 className="text-2xl font-semibold">Deepak — Resume</h3>
               <p className="mt-1 text-muted-foreground">
                 A concise summary of my education, projects, skills, and achievements.
               </p>

@@ -174,7 +174,7 @@ export function Hero() {
               <CharReveal text="Hi, I'm" className="text-muted-foreground" />
             </span>
             <span className="block overflow-hidden">
-              <CharReveal text="Deeps." className="text-gradient" />
+              <CharReveal text="Deepak." className="text-gradient" />
             </span>
             <span className="mt-3 block h-[1.2em] text-2xl md:text-4xl lg:text-5xl">
               <TypewriterRoles />
@@ -248,7 +248,7 @@ export function Hero() {
             <div className="relative h-full w-full overflow-hidden rounded-full border border-white/10 glass-strong">
               <img
                 src={profileImg}
-                alt="Deeps"
+                alt="Deepak"
                 className="h-full w-full object-cover"
                 loading="eager"
               />

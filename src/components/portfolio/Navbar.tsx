@@ -65,7 +65,7 @@ export function Navbar() {
           <span className="grid h-8 w-8 place-items-center rounded-full bg-gradient-to-br from-[#0A84FF] via-[#7C3AED] to-[#22D3EE] text-sm font-black text-white shadow-[0_0_20px_rgba(124,58,237,0.5)]">
             D
           </span>
-          <span className="hidden sm:inline">Deeps</span>
+          <span className="hidden sm:inline">Deepak</span>
         </a>
 
         <nav className="hidden items-center gap-1 md:flex">
