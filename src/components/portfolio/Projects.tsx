@@ -105,20 +105,14 @@ export function Projects() {
                   </div>
                   <div className="mt-6 flex flex-wrap gap-3">
                     <a
-                      href="https://github.com"
+                      href={p.github}
                       target="_blank"
                       rel="noreferrer"
-                      className="inline-flex items-center gap-2 rounded-full glass px-4 py-2 text-sm transition hover:bg-white/10"
-                    >
-                      <Github className="h-4 w-4" />
-                      GitHub
-                    </a>
-                    <a
-                      href="#"
                       className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-medium text-black transition hover:opacity-90"
                     >
-                      <ExternalLink className="h-4 w-4" />
-                      Live Demo
+                      <Github className="h-4 w-4" />
+                      View on GitHub
+                      <ExternalLink className="h-3.5 w-3.5" />
                     </a>
                   </div>
                 </div>
