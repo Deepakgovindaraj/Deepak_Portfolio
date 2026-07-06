@@ -28,6 +28,7 @@ const projects = [
     future: ["WhatsApp integration", "Push notifications", "SMS", "Mobile app", "AI reminder suggestions"],
     accent: "from-[#0A84FF] to-[#22D3EE]",
     number: "01",
+    github: "https://github.com/Deepakgovindaraj/CloudNotify",
   },
   {
     name: "Eco Learn",
@@ -44,6 +45,7 @@ const projects = [
     future: ["Multi-language support", "Teacher dashboard", "Offline mode"],
     accent: "from-[#7C3AED] to-[#22D3EE]",
     number: "02",
+    github: "https://github.com/Deepakgovindaraj/ECO---LEARN",
   },
   {
     name: "JDBC Employee Management",
@@ -60,6 +62,7 @@ const projects = [
     future: ["REST API layer", "Web UI with React"],
     accent: "from-[#0A84FF] to-[#7C3AED]",
     number: "03",
+    github: "https://github.com/Deepakgovindaraj/JAVA-console---EmployeeManagement",
   },
 ];
 
