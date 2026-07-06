@@ -7,7 +7,6 @@ import {
   FileText,
   Mail,
   MapPin,
-  Phone,
   Send,
   Github,
   Linkedin,
