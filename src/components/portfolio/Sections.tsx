@@ -48,7 +48,6 @@ export function Resume() {
             <div className="flex flex-wrap gap-3">
               <a
                 href="https://drive.google.com/uc?export=download&id=1kEMJTbWo1C3AjpfbrWVgIivUTKvrnZNp"
-                target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-white px-5 py-2.5 text-sm font-medium text-black transition hover:opacity-90"
               >
