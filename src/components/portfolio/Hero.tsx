@@ -199,7 +199,7 @@ export function Hero() {
             <MagneticButton primary href="#projects">
               View Projects
             </MagneticButton>
-            <MagneticButton href="https://drive.google.com/file/d/1kEMJTbWo1C3AjpfbrWVgIivUTKvrnZNp/view?usp=sharing">
+            <MagneticButton href="https://drive.google.com/uc?export=download&id=1kEMJTbWo1C3AjpfbrWVgIivUTKvrnZNp">
               <Download className="h-4 w-4" />
               Download Resume
             </MagneticButton>
