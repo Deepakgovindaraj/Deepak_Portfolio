@@ -199,10 +199,10 @@ export function Hero() {
             <MagneticButton primary href="#projects">
               View Projects
             </MagneticButton>
-            <MagneticButton href="https://drive.google.com/uc?export=download&id=1kEMJTbWo1C3AjpfbrWVgIivUTKvrnZNp">
-              <Download className="h-4 w-4" />
-              Download Resume
-            </MagneticButton>
+          <MagneticButton href="https://drive.google.com/uc?export=download&id=1nVcFnstoxZjiaseWqyXL9lIl9eeZVk_8">
+            <Download className="h-4 w-4" />
+            Download Resume
+          </MagneticButton>
           </motion.div>
 
           <motion.div
