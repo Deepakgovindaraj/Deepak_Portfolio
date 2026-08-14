@@ -47,7 +47,7 @@ export function Resume() {
             </div>
             <div className="flex flex-wrap gap-3">
               <a
-                href="https://drive.google.com/uc?export=download&id=1kEMJTbWo1C3AjpfbrWVgIivUTKvrnZNp"
+                href="https://drive.google.com/uc?export=download&id=1nVcFnstoxZjiaseWqyXL9lIl9eeZVk_8"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-white px-5 py-2.5 text-sm font-medium text-black transition hover:opacity-90"
               >
@@ -55,7 +55,7 @@ export function Resume() {
                 Download
               </a>
               <a
-                href="https://drive.google.com/file/d/1kEMJTbWo1C3AjpfbrWVgIivUTKvrnZNp/view?usp=sharing"
+                href="https://drive.google.com/file/d/1nVcFnstoxZjiaseWqyXL9lIl9eeZVk_8/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full glass px-5 py-2.5 text-sm font-medium transition hover:bg-white/10"
